@@ -6,8 +6,7 @@ const getClient = (clientId) => {
   return cached.client;
 };
 
-// Verifies a Google ID token (signature, issuer, expiry, and that it was issued for OUR client id).
-// Returns { ok: true, payload } or { ok: false, status, message } so callers can respond directly.
+
 exports.verifyGoogleCredential = async (credential) => {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   if (!clientId) return { ok: false, status: 503, message: 'Google sign-in is not configured.' };
