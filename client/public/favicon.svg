@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <path d="M16 11h21l9 9v22H16z" fill="#fff"/>
+  <path d="M37 11v10h9" fill="#c7d2fe"/>
+  <path d="M21 26h17M21 31h12" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="22" y="40" font-size="11" font-weight="bold" fill="#4f46e5">AI</text>
+  <rect x="29" y="35" width="25" height="18" rx="3" fill="#4338ca" stroke="#fff" stroke-width="1.5"/>
+  <path d="M31 38l10.5 8L52 38" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+</svg>
